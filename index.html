@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Bharti - Python Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css?v=2" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Abhishek Bharti</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Abhishek Bharti</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile.png?v=2" alt="Abhishek Bharti profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Abhishek Bharti</h1>
+        <p class="section__text__p2">Python Developer & Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./index.html#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/abhishek-bharti-642b9a23a/'"
+          />
+          <img
+            src="github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/abhibharti5556'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="IMG_20240723_160704527.png?v=2"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Fresher<br />Python Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech. Computer Science<br />Bachelor's Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a passionate and dedicated Python developer with a strong foundation in web development, data manipulation, and software engineering. With expertise in modern frameworks and libraries such as Flask, NumPy, Pandas, Matplotlib, and Tkinter, I bring a versatile skill set to create innovative solutions.
+
+My journey in technology began with a curiosity for problem-solving and has evolved into a passion for building efficient, scalable applications. I specialize in developing dynamic web applications, creating intuitive user interfaces, and implementing data-driven solutions that deliver real value.
+
+Whether it's building a full-stack web application, developing interactive games, or creating data analysis tools, I approach each project with enthusiasm and attention to detail. I believe in writing clean, maintainable code and staying updated with the latest industry trends and best practices.
+
+Let's connect and bring your ideas to life through innovative technology solutions!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./index.html#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills & Expertise</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Python Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Web Development</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NumPy</h3>
+                  <p>Data Processing</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                  <p>Data Analysis</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matplotlib</h3>
+                  <p>Data Visualization</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tkinter</h3>
+                  <p>GUI Development</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub</h3>
+                  <p>Version Control</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./index.html#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="1697949298765.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Music Player</h2>
+            <p style="text-align: center; margin: 1rem 0; color: #666;">
+              A feature-rich local file music player built with Python and Tkinter. 
+              Features include playlist management, audio controls, and a modern user interface.
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/abhibharti5556/Local_file_Music_Player'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.linkedin.com/posts/abhishek-bharti-642b9a23a_digibhem-task1-digitalbhem-activity-7121715550824595456-_W6j?utm_source=share&utm_medium=member_desktop'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Screenshot 2024-09-08 222348.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Snake Game</h2>
+            <p style="text-align: center; margin: 1rem 0; color: #666;">
+              Classic Snake game implementation using Python and Pygame. 
+              Features include score tracking, increasing difficulty, and smooth gameplay mechanics.
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/abhibharti5556/Snake_Game'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.linkedin.com/posts/abhishek-bharti-642b9a23a_pygame-digitalbhem-task2-activity-7125006741477486592-BO0G?utm_source=share&utm_medium=member_desktop'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Influencer Engagement & Sponsorship Coordination Platform</h2>
+            <p style="text-align: center; margin: 1rem 0; color: #666;">
+              A comprehensive web application connecting influencers with sponsors for marketing campaigns. 
+              Features multi-role user system, campaign management, and admin dashboard with analytics.
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/abhibharti5556/Influencer-Engagement-Sponsorship-Coordination'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://influencer-engagement-sponsorship-sqe4.onrender.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./index.html#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:abhishekbharti5556@gmail.com">abhishekbharti5556@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/abhishek-bharti-642b9a23a/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © 2024 Abhishek Bharti. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
